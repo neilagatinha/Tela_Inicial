@@ -1,0 +1,39 @@
+body{
+    background-color: #0092d3;
+}
+
+.Quadro{
+    margin-top: 7vw;
+    margin-left: -2vw;
+    width: 20vw;
+    border: #0092d3 solid 1px;
+    border-radius: 20px;
+}
+
+#limao{
+    height: 34vh;
+    width: 20vw;
+}
+
+.descricao{
+    background-color: white;
+    margin-top: 13vw;
+    margin-left: 15vw;
+    width: 75vw;
+    height: 25vh;
+    border: #0092d3 solid 2px;
+    border-radius: 20px;
+}
+
+#text{
+    text-align: center;
+    font-size: large;
+}
+
+#img-in-es{
+    margin-top: -95px;
+    margin-left: -210px;
+   
+}
+
+
