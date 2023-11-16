@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style-index.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- BARRA LATERAL -->
+  <div class="row">
+    <div id="container-barra-lateral" class="col-2">
+
+      <div id="BarraLateral" class="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary" style="width: 250px;">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi pe-none me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <span class="fs-4">Cadastre-se</span>
+        </a>
+        <button id="login-but"> Login in </button>
+
+        <div>
+          <img id="icons-midia" src="./css/Img/Social.jpg" alt="">
+          <img id="icons-midia" src="./css/Img/Social.png" alt="">
+          <img id="icons-midia" src="./css/Img/Social (1).png" alt="">
+
+
+        </div>
+
+
+        <div>
+          <h3 id="Produtos">Produtos</h3>
+        </div>
+
+
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="black" class="bi bi-list"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+          </svg>
+          <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+            Categorias
+          </button>
+          <div class="collapse show" id="dashboard-collapse" style="">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Frutas Tropicais</a></li>
+              <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Frutas de Caroço</a></li>
+              <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Legumes</a></li>
+              <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Exóticas</a></li>
+            </ul>
+        </li>
+
+        <li>
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+            Importados
+          </button>
+          <div class="collapse show" id="dashboard-collapse" style="">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Frutas Tropicais</a></li>
+              <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Frutas de Caroço</a></li>
+              <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Legumes</a></li>
+              <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Exóticas</a></li>
+            </ul>
+        </li>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!--COLUNA 2-->
+
+  <div id="conteudo-Principal" class="col">
+
+
+    <img id="LOGO" src="./css/Img/Logotipo Moderno Tecnologia e Gaming Roxo 1.png" alt="">
+
+    <div>
+
+      <input id="pesquisa" placeholder="Pesquisar" type="text"> <img id="icons-pesq3" src="./css/Img/Group 6.png"
+        alt=""><img id="icons-pesq1" src="./css/Img/Group 25.png" alt=""> <img id="icons-pesq2"
+        src="./css/Img/ICONE ADM.png" alt="">
+
+    </div>
+
+    <div class="container-botoes">
+      <div>
+        <button id="Botao1"> Cupons</button>
+      </div>
+      <div>
+        <button id="Botao2">Pedidos</button>
+      </div>
+      <div>
+        <button id="Botao3">Dicas</button>
+      </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="row">
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./css/Img/banner pronto tratado.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./css/Img/banner pronto tratado.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./css/Img/banner pronto tratado.webp" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="SUBTEXTOS">
+      <ul class="nav nav-underline">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Todos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ofertas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Combos</a>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="container">
+
+
+      <div class="container-card">
+        <div class="Produto">
+
+          <div class="imagem">
+            <img id="img-f" class="product-img"
+              src="./css/Img/Honey-Lime-Peach-Fruit-Salad-3-725x725-1-removebg-preview 1.png" alt="">
+          </div>
+          <div class="titulo">
+            Limão Siciliano
+          </div>
+        </div>
+        <div class="preco">
+          <p>
+            <spam>R$: 5,00</spam> <img id="simbolomais1"src="./css/Img/simbolo de mais.jpg" alt="comprar">
+          </p>
+          <a id="ref" href="">Adicionar a Cesta</a>
+        </div>
+      </div>
+
+      <div class="container-card">
+        <div class="Produto">
+
+          <div class="imagem">
+            <img id="img-f" class="product-img"
+              src="./css/Img/Honey-Lime-Peach-Fruit-Salad-3-725x725-1-removebg-preview 3.png" alt="">
+          </div>
+          <div class="titulo">
+            Fruta Pão
+          </div>
+        </div>
+        <div class="preco">
+          <p>
+            <spam>R$: 100,00</spam>  <img id="simbolomais2" src="./css/Img/simbolo de mais.jpg" alt="">
+          </p>
+          <a id="ref" href="">Adicionar a Cesta</a>
+        </div>
+      </div>
+
+
+      <div class="container-card">
+        <div class="Produto">
+
+          <div class="imagem">
+            <img id="img-fm" class="product-img"
+              src="./css/Img/mirtilo.jpg" alt="comprar">
+          </div>
+          <div class="titulo">
+            Mirtilo
+          </div>
+        </div>
+        <div class="preco">
+          <p>
+            <spam>R$: 100,00</spam>  <img id="simbolomais3" src="./css/Img/simbolo de mais.jpg" alt="">
+          </p>
+          <a id="ref" href="">Adicionar a Cesta</a>
+        </div>
+      </div>
+
+
+      <div class="container-card">
+        <div class="Produto">
+
+          <div class="imagem">
+            <img id="img-fp" class="product-img"
+              src="./css/Img/pitaia.webp" alt="compra besta">
+          </div>
+          <div class="titulo">
+            Pitaia
+          </div>
+        </div>
+        <div class="preco">
+          <p>
+            <spam>R$: 100,00</spam> <img id="simbolomais4" src="./css/Img/simbolo de mais.jpg" alt="">
+          </p>
+          <a id="ref" href="">Adicionar a Cesta</a>
+        </div>
+      </div>
+
+    </div>
+</body>
+
+</html>
