@@ -1,28 +1,55 @@
 body{
-    background-color: #0092d3;
+    background-color: #cbefffc4!important;
+}
+
+.linha-principal{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20vw 10px 20vw;
 }
 
 .Quadro{
-    margin-top: 7vw;
-    margin-left: -2vw;
-    width: 20vw;
+    width:25vw ;
+    height: 45vh;
+    margin-top: 100px;
+    margin-left: -200px;
+    background-color: white;
     border: #0092d3 solid 1px;
     border-radius: 20px;
+    overflow: hidden;
+   
+}
+
+#carouselExample{
+
+    width:25vw ;
+    height: 50vh;
+}
+
+.container-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
 }
 
 #limao{
+    margin-left: 25px;
     height: 34vh;
-    width: 20vw;
+    width: 18vw;
 }
 
 .descricao{
+    position: absolute;
     background-color: white;
-    margin-top: 13vw;
-    margin-left: 15vw;
-    width: 75vw;
+    margin-left: 350px;
+    bottom: 5vh;
+    width: 65vw;
     height: 25vh;
     border: #0092d3 solid 2px;
     border-radius: 20px;
+    padding:0;
 }
 
 #text{
@@ -30,10 +57,93 @@ body{
     font-size: large;
 }
 
-#img-in-es{
-    margin-top: -95px;
-    margin-left: -210px;
+
+.MiniQuadro{
+    background-color: white;
+
+    width: 5vw;
+    height: 10vh;
+    border-radius: 10px;
+    border: #0092d3 solid 1px;
+}
+
+.container-mini{
+    display: flex;
+    margin-top: 20px;
+    margin-left: -400px;
+}
+
+
+
+
+
+
+
+#botao{
+    color: white;
+    padding: 8px 45px;
+    background-color: #0092d3;
+    border: #0092d3 solid 1px;
+    border-radius: 15px;
+   width: 300px;
+   font-size: large;
    
 }
 
+#preco{
+    font-size: xx-large;
+    color: #0092d3;
+    font-size: xx-large;
+    src: url();
+
+}
+
+#text-de{
+    padding: 8px 45px;
+    font-family: Amiko-Bold;
+    text-align: center;
+    src:url();
+    font-size: large;
+}
+
+#se{
+   position: fixed;
+   top:-50px;
+    left: 0;
+    rotate: -10deg;
+    z-index:-99;
+
+}
+
+#sd{
+    position: fixed;
+    top:0;
+    right: 0;
+    z-index:-99;
+    rotate: -15deg;
+  
+}
+
+
+#ind{
+position: fixed;
+margin-top: -40px;
+  margin-left:78vw;
+  rotate: 14deg;
+  z-index: -99;
+
+
+}
+
+#infe{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index:-99;
+}
+   
+#Vendido{
+    margin-top: 9px;
+    margin-left: 15px;
+}
 
