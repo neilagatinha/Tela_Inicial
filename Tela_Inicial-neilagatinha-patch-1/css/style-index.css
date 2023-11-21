@@ -1,0 +1,297 @@
+body {
+    background-color: #cbefffb9!important;
+}
+
+.flex-container {
+    display: flex;
+}
+
+/* CONTEÚDO BARRA*/
+#BarraLateral {
+    background-color: white;
+    border: 2px solid #0092D3;
+    border-radius: 20px;
+    height: 98.2vh;
+
+}
+
+
+#login-but{
+    margin-top: 10px;
+    color: white;
+    border: #0092D3;
+    border-radius: 1px solid 0092D3  ;
+   background-color: #0092D3;
+    justify-content: center;
+    border-radius: 20px;
+    font-family: Amiko-Bold;
+    font-size: large;
+    src:url(Amiko/Amiko-Bold.ttf)
+    
+
+
+
+}
+
+#icons-midia{
+    margin-left: 29px;
+    margin-top: 20px;
+    justify-content: space-between; 
+ 
+    
+    
+}
+
+
+#Produtos{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: px;
+
+}
+
+#Cat{
+    text-align: center;
+    margin-top: 40px;
+    font-family: Amiko-Regular;
+    src:url(Amiko/Amiko-Regular.ttf)
+
+}
+
+#dashboard-collapse{
+    justify-content: center;
+   text-align: center;
+    font-size: large;
+    font-family: Amiko-Bold;
+    src:url(Amiko/Amiko-Bold.ttf)
+
+}
+
+#dashboard-collapse{
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: large;
+    font-family: Amiko-Regular;
+    src:url(Amiko/Amiko-Regular.ttf)
+}
+
+
+
+
+
+
+
+/*botoes e pesquisa*/
+
+#LOGO{
+    position: fixed !important;
+    margin-top: 40px;
+ margin-left: 650px;
+justify-content: center;
+
+}
+#pesquisa { 
+    border: #0092D3 solid 1px;
+margin-left: 400px;
+margin-top: 150px;
+    border-radius: 20px;
+    width: 600px;
+    height: 50px;
+    
+}
+
+#icons-pesq1{
+    
+ margin-top: 40px;
+ margin-left: -35px;
+
+}
+
+#icons-pesq2{
+    margin-left: -49px;
+   
+   }
+
+#icons-pesq3{
+   margin-left: 10px;
+   
+   }
+
+
+.container-botoes {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: px 300px 300px 0px;
+    margin-left: 490px;
+    margin-right: 490px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+#Botao1{
+    
+    color: white;
+    background-color: #0092D3;
+    border: solid #0092D3;
+    width: 110px;
+    border-radius: 16px;
+    padding: 5px 10px ;
+    font-size: large;
+    font-family: Amiko-Bold;
+    src:url(Amiko/Amiko-Bold.ttf)
+    
+}
+
+#Botao2{
+    color: white;
+    background-color: #0092D3;
+    border: solid #0092D3;
+    width: 110px;
+    border-radius: 16px;
+    padding: 5px 10px;
+    font-size: large;
+    font-family: Amiko-Bold;
+    src:url(Amiko/Amiko-Bold.ttf)
+}
+#Botao3{
+    color: white;
+    background-color: #0092D3;
+    border: solid #0092D3;
+    width: 110px;
+    border-radius: 16px;
+    padding: 5px 10px;
+    font-size: large;
+    font-family: Amiko-Bold;
+    src:url(Amiko/Amiko-Bold.ttf)
+    
+}
+
+
+
+
+#SUBTEXTOS{
+    margin-bottom: -30px;
+    margin-left: 150px;
+    margin-right: 800px;
+    justify-content: space-between;
+    flex-direction:row ;
+    padding: auto;
+    display: flex;
+    color: #000000;
+    font-size: large;
+    font-family: Amiko-SemiBold;
+    src:url(Amiko/Amiko-SemiBold.ttf)
+}
+
+
+
+
+
+#carouselExampleAutoplaying{ /*BANNER*/
+    align-content: center;
+    margin-top: -25px;
+    width: 65VW;
+}
+
+
+
+
+
+
+/* CARD DAS FRUTAS*/
+
+#iconcoracao{
+
+    align-content: end;
+
+}
+
+#container-barra-lateral{
+    position: fixed;
+    height: 150vw;
+}
+
+#conteudo-Principal{
+    margin-left: 18vw;
+
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+    margin-left: 500px;
+  
+  
+}
+
+.container-card{
+    background-color: white;
+    border: #0092D3 solid 2px;
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    margin-right: 100px;   
+}
+
+.container-card .product-img{
+    padding: 20px 50px 30px 30px;
+    margin-left: 15px;
+}
+
+#img-fp{
+    
+    width: 220px; 
+    height: 160px;
+   
+} 
+#img-fm{
+ 
+    width: 220px; 
+    height: 160px;
+   
+} 
+
+
+.container-card .titulo{
+    text-align: center;
+}
+
+.container-card .preco{
+    font-size: 15px;
+    color: #0092D3;
+    margin-top: 20px;
+  margin-left: 25px;
+  margin-bottom: 15px;
+
+}
+
+#simbolomais1{
+    margin-left: 45px;
+}
+#simbolomais2{
+    margin-left: 45px;
+}
+#simbolomais3{
+    margin-left: 45px;
+}
+#simbolomais4{
+    margin-left: 45px;
+}
+
+
+
+
+
+.container-card #ref{
+    color: white;
+    background: #0092D3;
+    border: solid #0092D3;
+    border-radius: 20px;
+    padding:  5px 15px;
+    margin-bottom: 10px;
+}

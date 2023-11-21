@@ -1,0 +1,185 @@
+body {
+    background-color: #CBEFFF!important;
+}
+
+.flex-container {
+    display: flex;
+}
+
+/* CONTEÚDO BARRA*/
+#BarraLateral {
+    background-color: white;
+    border: 2px solid #0092D3;
+    border-radius: 20px;
+    height: 98.2vh;
+
+}
+
+
+#login-but{
+    margin-top: 10px;
+    color: white;
+    border: #0092D3;
+    border-radius: 1px solid 0092D3  ;
+   background-color: #0092D3;
+    justify-content: center;
+    border-radius: 20px;
+    font-family: Amiko-Bold;
+    font-size: large;
+    src:url(Amiko/Amiko-Bold.ttf)
+    
+
+
+
+}
+
+#icons-midia{
+    margin-left: 29px;
+    margin-top: 20px;
+    justify-content: space-between; 
+ 
+    
+    
+}
+
+
+#Produtos{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: px;
+
+}
+
+#Cat{
+    text-align: center;
+    margin-top: 40px;
+    font-family: Amiko-Regular;
+    src:url(Amiko/Amiko-Regular.ttf)
+
+}
+
+#dashboard-collapse{
+  
+    font-size: large;
+    font-family: Amiko-Bold;
+    src:url(Amiko/Amiko-Bold.ttf)
+
+}
+
+#dashboard-collapse{
+    
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: large;
+    font-family: Amiko-Regular;
+    src:url(Amiko/Amiko-Regular.ttf)
+}
+
+
+
+
+
+
+
+/*botoes e pesquisa*/
+
+#LOGO{
+    position: fixed !important;
+    margin-top: 40px;
+ margin-left: 650px;
+justify-content: center;
+
+}
+#pesquisa { 
+    border: #0092D3 solid 1px;
+margin-left: 400px;
+margin-top: 150px;
+    border-radius: 20px;
+    width: 600px;
+    height: 50px;
+    
+}
+
+#icons-pesq1{
+    
+ margin-top: 40px;
+ margin-left: -35px;
+
+}
+
+#icons-pesq2{
+    margin-left: -49px;
+   
+   }
+
+#icons-pesq3{
+   margin-left: 10px;
+   
+   }
+
+
+
+
+#Botoes {
+  
+
+    
+ 
+   
+  
+}
+
+
+#SUBTEXTOS{
+    margin-bottom: -30px;
+    margin-left: 150px;
+    margin-right: 800px;
+    justify-content: space-between;
+    flex-direction:row ;
+    padding: auto;
+    display: flex;
+    color: #000000;
+    font-size: large;
+    font-family: Amiko-SemiBold;
+    src:url(Amiko/Amiko-SemiBold.ttf)
+}
+
+
+
+
+
+#carouselExampleAutoplaying{ /*BANNER*/
+ 
+    align-content: center;
+    width: 60VW;
+}
+
+
+
+
+
+
+/* CARD DAS FRUTAS*/
+
+.card-body{
+
+ 
+
+}
+
+
+
+
+
+
+#container-barra-lateral{
+    position: fixed;
+    height: 150vw;
+}
+
+#conteudo-Principal{
+    margin-left: 18vw;
+
+}
+
