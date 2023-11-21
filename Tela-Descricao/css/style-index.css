@@ -108,10 +108,10 @@ body{
 
 #se{
    position: fixed;
-   top:-50px;
+   top:-90px;
     left: 0;
-    rotate: -10deg;
     z-index:-99;
+    width: 30vw;
 
 }
 
@@ -120,18 +120,21 @@ body{
     top:0;
     right: 0;
     z-index:-99;
-    rotate: -2deg;
+    rotate: deg;
+    width: 22vw;
   
 }
 
 
 #ind{
 position: fixed;
-margin-top: -40px;
-  margin-left:78vw;
-  rotate: 14deg;
+margin-top: -10px;
+  margin-left:72vw;
+  rotate: 26deg;
   z-index: -99;
 
+  width: 30vw;
+    height: 60vh;
 
 }
 
@@ -140,6 +143,8 @@ margin-top: -40px;
     bottom: 0;
     left: 0;
     z-index:-99;
+    width: 30vw;
+    height: 35vh;
 }
    
 #Vendido{
@@ -147,3 +152,7 @@ margin-top: -40px;
     margin-left: 15px;
 }
 
+#navbarNav{
+    border: #0092d3 solid 1px;
+    border-radius:20px;
+}
