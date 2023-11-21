@@ -1,0 +1,165 @@
+body { 
+    background-color: #CBEFFF;
+   
+}
+
+.flex-container-card { 
+    background-color: white;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#MeusPed{
+    display: flex;
+    text-align: left;
+   margin-left: 60px;
+   padding: 50px auto 0px 0px -50px auto;
+   color: black;
+    size: 10px;
+    font-family: Amiko-Regular;
+    src: url(./Amiko/Amiko-Regular.ttf);
+}
+ #MeusPed > .bi {
+    display: flex;
+    margin-top: 24px;
+    margin-left: -10px;
+ }
+
+
+/*detalhes da página*/
+#logotipo {
+    display: flex;
+    justify-content: center;
+    margin-left: 950px;
+    margin-top: 20px;
+
+}
+
+#detalhe1cima {
+    width: 20vw;
+    position: fixed;
+    border: #0380b6;
+    top: 0;
+    left: 80vw;
+}
+
+#detalhe2abaixo {
+    width: 60vw;
+    border: #0380b6;
+    bottom: 0;
+    right: 80vw;
+}
+
+#gatinho {
+    width: -10vw;
+    height: -10vw;
+    position: absolute;
+    border: #0380b6;
+    top: 2.4vw;
+    left: 70vw;
+}
+
+
+/*estilo do card*/
+#ctn-pedidos {}
+
+.card-pedido {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #0092D3;
+    border-radius: 20px;
+    box-shadow: 0PX 10PX 10PX rgba(148, 146, 146, 0.966);
+
+}
+
+.iten-pedido {
+    display: flex;
+    background-color: #CBEFFF;
+    border: 1px solid #0092D3;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    width: 56vw;
+    margin: 5px auto 5px auto;
+}
+
+.iten-pedido div img {
+    border: 1.5px solid #0092D3;
+    border-radius: 20px;
+    margin-left: -30px;
+    max-width: 100px;
+    max-height: 150px
+}
+
+.card-pedido > hr{
+    border:  #0092D3 1px solid;
+    margin: 14px  auto 0px auto  ;
+    width: 50vw;
+}
+
+
+
+
+/*CARTAO DE PEDIDO 2*/
+.card-pedido{
+    margin-top: 1VW;
+}
+
+
+
+
+
+ /*conteúdo do card pedidos*/
+
+
+ #NomeCliente{
+    display: flex;
+    justify-content: flex-start;
+    text-align: right;
+    color: black;
+    size: 15px;
+    font-family: Amiko-Regular;
+    src: url(./Amiko/Amiko-Regular.ttf);
+ }
+
+
+ #DadosPed{
+    display: flex;
+    text-align: left;
+    justify-content:space-around;
+    margin-left: -200px;
+    color: black;
+    size: 10px;
+    font-family: Amiko-Regular;
+    src: url(./Amiko/Amiko-Regular.ttf);
+    }
+
+
+ #text-FrutName{
+    color: black;
+    size: 10px;
+    margin-left: -200px;
+    font-family: Amiko-Regular;
+    src: url(./Amiko/Amiko-Regular.ttf);
+ }
+
+ #text-UniMedWq{
+    color: black;
+    text-align: center;
+    size: 10px;
+    font-family: Amiko-Regular;
+    src: url(./Amiko/Amiko-Regular.ttf);
+
+ }
+    
+ #preco-Total {
+    text-align: center;
+    justify-content: center;
+
+}
+
